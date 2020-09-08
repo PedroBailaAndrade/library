@@ -3,7 +3,7 @@
 
 .checkbox-content {
     height: 100%;
-    display: block;
+    display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr 15vw;
     grid-template-rows: 1fr 1fr 1fr 1fr;
