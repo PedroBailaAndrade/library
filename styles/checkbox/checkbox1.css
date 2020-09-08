@@ -1,0 +1,35 @@
+.checkbox1 {
+    display: grid;
+    place-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    grid-template-rows: 1fr 1fr;
+}
+
+#checkbox1inp {
+    display:none;
+}
+
+#checkboxtex {
+    grid-row: 1;
+}
+
+#checkbox1lab {
+    grid-row: 2;
+}
+
+#checkbox1inp + #checkbox1lab::before {
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: block;
+    content: "";
+    float: left;
+}
+
+#checkbox1inp:checked + #checkbox1lab::before {
+    box-shadow: inset 0px 0px 0px 3px #fff;
+    background-color: #0066ff;
+}

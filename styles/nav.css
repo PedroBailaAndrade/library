@@ -1,0 +1,14 @@
+.nav {
+    position: fixed;
+    top: 100px;
+    left: 85vw;
+    width: 10vw;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+.nav ul h3 {
+    cursor: pointer;
+}

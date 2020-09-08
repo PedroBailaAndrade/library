@@ -1,0 +1,11 @@
+@import "checkbox1.css";
+@import "checkbox2.css";
+
+.checkbox-content {
+    height: 100%;
+    display: block;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 15vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1vw 1vw;
+}
