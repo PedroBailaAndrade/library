@@ -9,6 +9,7 @@
         <title>Library</title>
         <style>@import "styles/style.css"</style>
         <script type="text/javascript" src="js/nav.js"></script>
+        <script src="https://kit.fontawesome.com/1d6b0db102.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -40,11 +41,11 @@
                 <div class="radio1">
                     <input class="radio1inp" id="radio1inp" type="radio" name="radio1" checked>
                     <label class="radio1lab" id="radio1lab" for="radio1inp">
-                        optin1
+                        opt1
                     </label>
                     <input class="radio1inp" id="radio2inp" type="radio" name="radio1">
                     <label class="radio1lab" id="radio2lab" for="radio2inp">
-                        optin2
+                        opt2
                     </label>
                 </div>
 
@@ -57,10 +58,14 @@
         </div>
         <div class="nav">
             <ul>
-                <h3 onclick="contentDisplay('checkbox-content', 'radio-content', 'inputs-content', 'buttons-content', 'content-text')" id="checkbox">checkbox</h3>
-                <h3 onclick="contentDisplay('radio-content', 'checkbox-content', 'inputs-content', 'buttons-content', 'content-text')" id="radio">radio</h3>
-                <h3 onclick="contentDisplay('inputs-content', 'checkbox-content', 'radio-content', 'buttons-content', 'content-text')" id="inputs">inputs</h3>
-                <h3 onclick="contentDisplay('buttons-content', 'checkbox-content', 'radio-content', 'inputs-content', 'content-text')" id="buttons">buttons</h3>
+                <h3 onclick="contentDisplay('checkbox-content', 'radio-content', 'inputs-content', 'buttons-content', 'content-text', 'checkbox')" id="checkbox"><i class="far fa-arrow-alt-circle-right"></i>
+checkbox</h3>
+                <h3 onclick="contentDisplay('radio-content', 'checkbox-content', 'inputs-content', 'buttons-content', 'content-text', 'radio')" id="radio"><i class="far fa-arrow-alt-circle-right"></i>
+radio</h3>
+                <h3 onclick="contentDisplay('inputs-content', 'checkbox-content', 'radio-content', 'buttons-content', 'content-text', 'inputs')" id="inputs"><i class="far fa-arrow-alt-circle-right"></i>
+inputs</h3>
+                <h3 onclick="contentDisplay('buttons-content', 'checkbox-content', 'radio-content', 'inputs-content', 'content-text', 'buttons')" id="buttons"><i class="far fa-arrow-alt-circle-right"></i>
+buttons</h3>
             </ul>
         </div>
         <div class="footer"></div>
