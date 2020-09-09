@@ -1,7 +1,6 @@
 @import "checkbox1.css";
-@import "checkbox2.css";
 
-.checkbox-content {
+.radio-content {
     height: 100%;
     display: none;
     place-items: center;

@@ -1,5 +1,11 @@
 @import "checkbox/checkbox_content.css";
+@import "radio/radio_content.css";
 
 .content {
     height: 1000px;
+}
+
+.content .content-text {
+    text-align: center;
+    display: block;
 }
