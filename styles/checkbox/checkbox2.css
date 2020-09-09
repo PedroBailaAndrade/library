@@ -22,8 +22,8 @@
     width: 100px;
     height: 50px;
     border-radius: 30px;
-    border: 2px solid #ddd;
-    background-color: #0066ff;
+    border: 2px solid var(--light);
+    background-color: var(--dark-blue);
     display: inline-block;
     content: "";
     float: left;
@@ -38,16 +38,16 @@
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: var(--white);
     display: block;
     content: "";
     float: left;
     transition: margin 0.1s linear;
-    box-shadow: 0px 0px 5px #aaa;
+    box-shadow: 0px 0px 5px var(--light);
 }
 
 #checkbox2inp:checked + #checkbox2lab{
-    background-color: #2b8718;
+    background-color: var(--yellow);
 }
 
 #checkbox2inp:checked + #checkbox2lab::before {
